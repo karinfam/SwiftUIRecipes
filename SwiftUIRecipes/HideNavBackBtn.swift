@@ -32,15 +32,15 @@ struct PageTwo: View {
 }
 
 // Hide from page 3 -> page 2
-struct PageTwo: View {
-    var body: some View {
-        VStack{
-            NavigationLink(destination: PageThree().navigationBarBackButtonHidden(true)){
-                Text("Go to Page Three")
-            }
-        }
-    }
-}
+//struct PageTwo: View {
+//    var body: some View {
+//        VStack{
+//            NavigationLink(destination: PageThree().navigationBarBackButtonHidden(true)){
+//                Text("Go to Page Three")
+//            }
+//        }
+//    }
+//}
 
 
 struct PageThree: View {
