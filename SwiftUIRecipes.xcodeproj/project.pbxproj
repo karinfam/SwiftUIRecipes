@@ -15,6 +15,9 @@
 		F0898B8024042646000D1DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0898B7E24042646000D1DE0 /* LaunchScreen.storyboard */; };
 		F0898B8B24042646000D1DE0 /* SwiftUIRecipesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0898B8A24042646000D1DE0 /* SwiftUIRecipesTests.swift */; };
 		F0898B9624042646000D1DE0 /* SwiftUIRecipesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0898B9524042646000D1DE0 /* SwiftUIRecipesUITests.swift */; };
+		F0C7406D240A420C0086959A /* NavigationWithEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C7406C240A420C0086959A /* NavigationWithEnv.swift */; };
+		F0C7406E240A420C0086959A /* NavigationWithEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C7406C240A420C0086959A /* NavigationWithEnv.swift */; };
+		F0C7406F240A420C0086959A /* NavigationWithEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C7406C240A420C0086959A /* NavigationWithEnv.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,7 @@
 		F0898B9124042646000D1DE0 /* SwiftUIRecipesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIRecipesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0898B9524042646000D1DE0 /* SwiftUIRecipesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIRecipesUITests.swift; sourceTree = "<group>"; };
 		F0898B9724042646000D1DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C7406C240A420C0086959A /* NavigationWithEnv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWithEnv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				F0898B7E24042646000D1DE0 /* LaunchScreen.storyboard */,
 				F0898B8124042646000D1DE0 /* Info.plist */,
 				F0898B7B24042646000D1DE0 /* Preview Content */,
+				F0C7406C240A420C0086959A /* NavigationWithEnv.swift */,
 			);
 			path = SwiftUIRecipes;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 				F0898B7424042641000D1DE0 /* AppDelegate.swift in Sources */,
 				F0898B7624042641000D1DE0 /* SceneDelegate.swift in Sources */,
 				F0898B7824042641000D1DE0 /* HideNavBackBtn.swift in Sources */,
+				F0C7406D240A420C0086959A /* NavigationWithEnv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0898B8B24042646000D1DE0 /* SwiftUIRecipesTests.swift in Sources */,
+				F0C7406E240A420C0086959A /* NavigationWithEnv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0898B9624042646000D1DE0 /* SwiftUIRecipesUITests.swift in Sources */,
+				F0C7406F240A420C0086959A /* NavigationWithEnv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
